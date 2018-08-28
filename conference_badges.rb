@@ -11,14 +11,14 @@ end
 badge_messages
 end
 
-def assign_rooms(speakers)
+def assign_rooms(array)
   rooms = []
-  speakers.each_with_index do |name, index|
+  array.each_with_index do |name, index|
     rooms << "Hello, #{name}! You'll be assigned to room #{index + 1}!"
   end
   rooms 
 end 
 
 def printer(array)
-  
+end
   
