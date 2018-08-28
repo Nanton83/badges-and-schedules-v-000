@@ -14,5 +14,5 @@ end
 def assign_rooms(speakers)
   rooms = []
   speakers.each_with_index do |name, index|
-    rooms << ""
+    rooms << "Hello, _____! You'll be assigned to room _____!""
     
