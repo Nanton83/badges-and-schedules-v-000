@@ -12,5 +12,7 @@ badge_messages
 end
 
 def assign_rooms(speakers)
+  rooms = []
   speakers.each_with_index do |name, index|
+    rooms << ""
     
